@@ -14,10 +14,13 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/603db14e13.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="main-container"> <!--Hook for CSS in order to syle everything-->
+
+
         <header> <!-- This is the top of the page " Logo, navigation"-->
             <!-- The header will be separated from the main body and the footer-->
             <!--img Displays an image on the page, src it's the course-->
@@ -30,7 +33,58 @@
                 <a href="#Things_to_do">Things to do</a>
             </nav>
             </header>
+
+
         <main>
+
+            <section id="search_menu">
+
+                <div>
+                    <h1>Find a place to stay for your dream vacation</h1>
+                    <p>In the heart of the city or surrounded by nature</p>
+                </div>
+                <form id="search_bar">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input id="location_info" type="text" name="town" placeholder="City, Country" value="Marseille, France" />
+                    <button id="search_button">Search</button>
+                    </form>
+                
+                <div id="filters">
+                    <p>Filters</p>
+
+                    <div id="filters_choice">
+
+                        <div class="filters_options">
+                            <i class="fa-solid fa-money-bill"></i>
+                            <p>Budget</p>
+                        </div>
+                        <div class="filters_options">
+                            <i class="fa-solid fa-person"></i>
+                            <p>Family-Friendly</p>
+                        </div>
+                        <div class="filters_options">
+                            <i class="fa-solid fa-heart"></i>
+                            <p>Romantic</p>
+                        </div>
+                        <div class="filters_options">
+                            <i class="fa-solid fa-fire"></i>
+                            <p>Our Top Picks</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class ="search_info">
+                    <i class="fa-light fa-circle-info"></i>
+                    <p>There are over 500 available places to stay in this city</p>
+                    
+                </div>
+                
+            </section>
+
+
+            
+
             <div class="accommodation-and-popular">
                 <section class="accommodation">
 
